@@ -14,8 +14,9 @@ body {
   }
 
 h1, h2 {
+color: rgb(95, 53, 23);
 font-family: 'Averia Serif Libre', cursive;
-text-align: center;
+
 
 }
 
@@ -32,6 +33,7 @@ text-align: center;
 .carousel-caption h2 {
   /*font-family: 'Averia Serif Libre', cursive;*/
   font-size: 6em;
+  color: white;
   /*color: olive;*/
 }
 
