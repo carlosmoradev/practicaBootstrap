@@ -16,9 +16,21 @@ body {
 h1, h2 {
 color: rgb(95, 53, 23);
 font-family: 'Averia Serif Libre', cursive;
-
-
 }
+
+/*<contacto>*/
+.header {
+    color: rgb(95, 53, 23);
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: rgb(95, 53, 23);
+}
+/*</contacto>*/
+
 
 .carousel,
 .item,
