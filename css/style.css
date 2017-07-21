@@ -110,9 +110,13 @@ text-align: center;
 
   border-radius: 10%;
 }
-.flex-row {
+
+/*.flex-row {
 	display: flex;
 	flex-wrap: wrap;
+}*/
+
+/*SECCION PARA MEDIAQUERYS*/
 
 @media (max-width: 1200px) {
 .logo img{
