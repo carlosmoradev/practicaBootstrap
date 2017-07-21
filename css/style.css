@@ -88,6 +88,12 @@ font-family: 'Averia Serif Libre', cursive;
   width: 100%;
 }
 
+/*.cardZanahoria {
+  color: olive;
+  content: url('../images/smallZanahoria.jpg');
+
+}*/
+
 footer {
     margin: 50px 0;
 }
