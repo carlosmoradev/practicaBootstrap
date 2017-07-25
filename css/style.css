@@ -18,6 +18,9 @@ color: rgb(95, 53, 23);
 font-family: 'Averia Serif Libre', cursive;
 }
 
+.divisionBase {
+  border: 1px solid red;
+}
 /*<contacto>*/
 .header {
     color: rgb(95, 53, 23);
@@ -123,22 +126,29 @@ font-family: 'Averia Serif Libre', cursive;
 
 .redesSociales {
   margin: 0 1em 0 0;
-  color: rgb(95, 53, 23);
+  /*color: rgb(95, 53, 23);*/
+  color: white;
   font-size: 2em;
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: lighter;
 }
 
-.telefonos a {
-  text-decoration: none;
+.telefonos {
+  border: 1px solid red;
+  display: inline-flex;
+  justify-content: space-between;
+  /*text-decoration: none;*/
 }
-
-
+.telefonos a{
+color: peru;
+}
 
 .botonEnviar {
   color: rgb(160, 190, 55);
 }
 
 footer {
-    margin: 50px 0;
+    margin-top: 50px;
 }
 
 #productos{
