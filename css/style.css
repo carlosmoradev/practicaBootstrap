@@ -82,17 +82,34 @@ font-family: 'Averia Serif Libre', cursive;
   z-index: 20;
 }
 
+#frmContacto {
+  padding-top: 3em;
+}
+
+/*.contactenos {
+  border: solid 1px red;
+}*/
+
 .contenidos{
   height: 100%;
-  padding-top: 3em;
+  /*padding-top: 3em;*/
   width: 100%;
 }
 
+.personal {
+  /*margin-left: 4em;*/
+  border-radius: 4em;
+  width: 100%;
+}
 /*.cardZanahoria {
   color: olive;
   content: url('../images/smallZanahoria.jpg');
 
 }*/
+
+.botonEnviar {
+  color: rgb(160, 190, 55);
+}
 
 footer {
     margin: 50px 0;

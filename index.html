@@ -59,7 +59,7 @@
                         <a href="#pedidos">Pedidos</a>
                     </li>
                     <li>
-                        <a href="#contactenos">Contacto</a>
+                        <a href="#frmContacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -132,22 +132,24 @@
     <div class="container-fluid">
 
         <div id="nosotros" class="row contenidos">
-            <div  class="col-lg-8">
+            <div  class="col-lg-12">
                 <h1>Nosotros</h1>
                 <p>Somos una empresa dedicada a la elaboración y venta de las más exquisitas Tortas y Muffins en las diferentes presentaciones solicitadas por nuestros clientes y consumidores, encontrando su mayor valor agregado en la excelentecombinación de Frutas y Hortalizas en sus estados naturales y bien seleccionadoscon los ingredientes básicos del producto. Nuestro mayor interés; entregarle anuestros consumidores productos saludables, bajos en grasas y azúcares, de alta calidad, exquisito sabor y a un precio justo. Cumpliendo toda la Normatividad vigente para el procesamiento de alimentos y ajustándonos cada vez más a la  total satisfacción y exigencia de nuestros clientes y consumidores, con productos basados en la Innovación para contribuir cada vez más a su sana alimentación.</p>
-                <div class="col-lg-6">
+                <div class="col-lg-3">
                   <h2>Misión</h2>
                   <p>Satisfacer el gusto de nuestros clientes y consumidores con productos de alta Calidad, Nutritivos y Naturales, dada la extraordinaria combinación de Frutas y Hortalizas en su estado natural con los ingredientes básicos del producto como Harina, Aceite vegetal y otros. Así, no solo logramos satisfacer el paladar de nuestros consumidores sino que logramos contribuir a su sana alimentación y bienestar. Con nuestro crecimiento continuo en el mercado, generamos oportunidades de empleo y desarrollo para nuestros colaboradores, proveedores y convencidos del aporte significativo con el desarrollo del campo.</p>
                 </div>
-                <div class="col-lg-5">
+                <figure class="col-lg-6">
+                  <img class="personal" src="images/nosotros.jpeg" alt="">
+                </figure>
+                <div class="col-lg-3">
                   <h2>Visión</h2>
                   <p>Contar con la mayor aceptación y reconocimiento por nuestros clientes y consumidores, de SER una empresa Innovadora y Responsable con la salud y la Sana Alimentación, al fabricar y vender productos de Alta Calidad y con Gran contenido de materias primas en su estado natural.</p>
                 </div>
-            </div>
-            <figure class="col-lg-4">
+            <!-- <figure class="col-lg-4">
               <img src="images/imgSmallChocolate.jpg" alt="">
-            </figure>
-            <div class="col-lg-12 row"><img src="images/nosotros.jpeg" alt="">  </div>
+            </figure> -->
+            </div>
         </div>
         <!-- <productos> -->
       <div id="productos" class="productos">
@@ -433,51 +435,58 @@
 </div>
       <!-- </servicios> -->
       <!-- <contacto> -->
-      <div class="container">
+      <div id="frmContacto" class="container">
+        <div class="col-md-6 well">
+          <h2>  Escríbenos</h2>
+        </div>
+        <div class="col-md-6 well">
+          <h2> o llámanos </h2>
+        </div>
     <div class="row">
         <div class="col-md-12">
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
-                    <fieldset>
-                        <h2 id="contactenos" class="text-center header contenidos">Contáctenos</h2>
+
+                      <fieldset>
+                        <h2 id="contactenos" class="text-center header contenidos"></h2>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-3">
+                            <div class="col-md-6">
                                 <input id="fname" name="name" type="text" placeholder="Nombres" class="form-control">
                             </div>
                         </div>
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-3">
+                            <div class="col-md-6">
                                 <input id="lname" name="name" type="text" placeholder="Apellidos" class="form-control">
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                            <div class="col-md-3">
+                            <div class="col-md-6">
                                 <input id="email" name="email" type="text" placeholder="Correo eletrónico" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                            <div class="col-md-3">
+                            <div class="col-md-6">
                                 <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Ingrese sus comentarios.  Lo contactaremos lo mas pronto posible" rows="5"></textarea>
+                            <div class="col-md-7">
+                                <textarea class="form-control" id="message" name="message" placeholder="Ingresa tus comentarios.  Te contactaremos lo mas pronto posible" rows="5"></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                <button type="submit" class="botonEnviar btn btn-primary btn-lg">Enviar</button>
                             </div>
                         </div>
                     </fieldset>
