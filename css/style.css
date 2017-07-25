@@ -13,9 +13,16 @@ body {
     src:url('../fonts/HighTowerText.ttf');
   }
 
-h1, h2 {
+h3 {
+  margin: 0;
+  padding: 0;
+
+}
+
+h1, h2, h3 {
 color: rgb(95, 53, 23);
 font-family: 'Averia Serif Libre', cursive;
+text-align: center;
 }
 
 .divisionBase {
@@ -96,6 +103,10 @@ font-family: 'Averia Serif Libre', cursive;
 }
 
 #piePagina {
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: center;
+
   background-color: rgb(95, 53, 23);
   margin-bottom: 0;
 }
@@ -137,6 +148,9 @@ font-family: 'Averia Serif Libre', cursive;
   border: 1px solid red;
   display: inline-flex;
   justify-content: space-between;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
   /*text-decoration: none;*/
 }
 .telefonos a{
@@ -148,7 +162,7 @@ color: peru;
 }
 
 footer {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 
 #productos{
