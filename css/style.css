@@ -99,7 +99,7 @@ text-align: center;
 #emergencia {
   color: red;
   font-size: 2em;
-  
+
 }
 
 /*#piePagina{
@@ -156,6 +156,11 @@ text-align: center;
   font-size: 2em;
   font-family: 'Averia Serif Libre', cursive;
   font-weight: lighter;
+}
+
+.redesSociales a {
+  text-decoration: none;
+  color: white;
 }
 
 .telefonos {
