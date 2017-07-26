@@ -103,6 +103,7 @@ text-align: center;
 }
 
 #piePagina {
+  width: 100%;
   display: inline-flex;
   justify-content: space-around;
   text-align: center;
