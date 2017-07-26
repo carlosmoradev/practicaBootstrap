@@ -145,7 +145,7 @@ text-align: center;
 }
 
 .telefonos {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   display: inline-flex;
   justify-content: space-between;
   text-align: center;
