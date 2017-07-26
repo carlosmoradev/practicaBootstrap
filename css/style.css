@@ -99,10 +99,14 @@ text-align: center;
 #emergencia {
   color: red;
   font-size: 2em;
-  text-shadow: 1 3 4;
+  
 }
 
-#piePagina {
+/*#piePagina{
+  height: 5em;
+}*/
+
+.piePagina {
   width: 100%;
   display: inline-flex;
   justify-content: space-around;
@@ -111,6 +115,15 @@ text-align: center;
   background-color: rgb(95, 53, 23);
   margin-bottom: 0;
 }
+
+.piePagina h3 {
+  color: white;
+}
+
+.piePagina img {
+  height: 4em;
+}
+
 /*.contactenos {
   border: solid 1px red;
 }*/
