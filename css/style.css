@@ -4,14 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+ @font-face {
+   font-family: 'HighTower';
+   src:url('../fonts/HighTowerText.ttf');
+ }
+
 html,
 body {
     height: 100%;
 }
-@font-face {
-    font-family: 'HighTower';
-    src:url('../fonts/HighTowerText.ttf');
-  }
 
 h3 {
   margin: 0;
@@ -25,9 +26,23 @@ font-family: 'Averia Serif Libre', cursive;
 text-align: center;
 }
 
-.divisionBase {
+#productos{
+  /*min-height: 100%;
+  height: 100%;*/
+  text-align: center;
+  padding-top: 3em;
+  /*width: 100vh;*/
+}
+
+#productos img{
+
+  border-radius: 10%;
+}
+
+.divisionBase { /*clase secundaria para identificar zonas*/
   border: 1px solid red;
 }
+
 /*<contacto>*/
 .header {
     color: rgb(95, 53, 23);
@@ -41,7 +56,7 @@ text-align: center;
 }
 /*</contacto>*/
 
-
+/*<carrusel>*/
 .carousel,
 .item,
 .active {
@@ -72,7 +87,7 @@ text-align: center;
     height: 100%;
 }
 
-
+/*</carrusel>*/
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
@@ -184,18 +199,6 @@ footer {
     /*margin-top: 50px;*/
 }
 
-#productos{
-  /*min-height: 100%;
-  height: 100%;*/
-text-align: center;
-  padding-top: 3em;
-  /*width: 100vh;*/
-}
-
-#productos img{
-
-  border-radius: 10%;
-}
 
 /*.flex-row {
 	display: flex;
