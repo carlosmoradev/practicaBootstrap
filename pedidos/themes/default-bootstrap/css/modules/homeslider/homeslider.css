@@ -41,11 +41,12 @@
       padding: 0;
       text-shadow:0 0 5px #000; }
     #homepage-slider .homeslider-description p {
-      width: 50%;
-      font-size: 1.15em;
+      width: 80%;
+      font-size: 1.45em;
       line-height: 1.3em;
       padding: 0.5em 0;
-      color: white; }
+      color: white;
+      text-shadow: 0 0 10px #000; }
     #homepage-slider .homeslider-description button {
       font-size: 1.2em;
       text-transform: uppercase; }
