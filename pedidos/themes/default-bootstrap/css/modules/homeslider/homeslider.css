@@ -38,7 +38,8 @@
       font-size: 2.7em;
       color: white;
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      text-shadow:0 0 5px #000; }
     #homepage-slider .homeslider-description p {
       width: 50%;
       font-size: 1.15em;
