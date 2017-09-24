@@ -87,6 +87,30 @@ text-align: center;
     height: 100%;
 }
 
+.parallax_section {
+  height: 80vh;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: 100% auto; */
+  background-attachment: fixed;
+  position: relative;
+  }
+
+.parallax_first_image {
+  background-image: url(../images/sliderFresa.jpg);
+    /* margin-top: 150px; */
+}
+
+.parallax_text {
+  font-size: 5em;
+  padding-top: 50vh;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px white;
+  font-family: 'Averia Serif Libre', cursive;
+  }
+
 /*</carrusel>*/
 /* Background images are set within the HTML using inline CSS, not here */
 
