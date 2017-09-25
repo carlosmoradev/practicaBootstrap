@@ -95,7 +95,7 @@ text-align: center;
   /* background-position: 100% auto; */
   background-attachment: fixed;
   position: relative;
-  }
+}
 
 .parallax_first_image {
   background-image: url(../images/sliderFresa.jpg);
@@ -103,13 +103,13 @@ text-align: center;
 }
 
 .parallax_text {
-  font-size: 5em;
-  padding-top: 50vh;
+  font-size: 6em;
+  padding-top: 10%;
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 5px white;
+  text-shadow: 1px 1px 2px white;
   font-family: 'Averia Serif Libre', cursive;
-  }
+}
 
 /*</carrusel>*/
 /* Background images are set within the HTML using inline CSS, not here */
@@ -165,8 +165,13 @@ text-align: center;
 	left: 0;
 }
 
-.front {
+.frontZanahoria {
 	background: url(../images/smallZanahoria.jpg) 0 0 no-repeat;
+  background-size: contain;
+	z-index: 2;
+}
+.frontAuyama {
+	background: url(../images/smallAuyama.jpg) 0 0 no-repeat;
   background-size: contain;
 	z-index: 2;
 }
@@ -177,10 +182,11 @@ text-align: center;
   -o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 
-	background: #f8f8f8;
+  background: #f8f8f8;
+  
 }
 
-.front .name {
+.frontZanahoria .frontAuyama .name {
 	font-size: 2em;
 	display: inline-block;
 	background: rgba(33, 33, 33, 0.9);
@@ -205,7 +211,7 @@ text-align: center;
 	left: 90px;
 	width: 160px;
 	height: 117px;
-	/*background: url(../images/smallZanahoria.jpg) 0 0 no-repeat;*/
+	background: url(../images/smallZanahoria.jpg) 0 0 no-repeat;
 }
 
 .back-title {
@@ -232,7 +238,6 @@ text-align: center;
   line-height: 2em;
 }
 /*efectoTarjetas*/
-
 
 .fill {
     width: 100%;
@@ -335,9 +340,9 @@ color: peru;
   color: rgb(160, 190, 55);
 }
 
-footer {
-    /*margin-top: 50px;*/
-}
+/* footer {
+    margin-top: 50px;
+} */
 
 
 /*.flex-row {
