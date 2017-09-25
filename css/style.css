@@ -1,390 +1,56 @@
-/*
- * Start Bootstrap - Full Slider (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
- @font-face {
-   font-family: 'HighTower';
-   src:url('../fonts/HighTowerText.ttf');
- }
-
+@font-face{font-family:'HighTower';src:url('../fonts/HighTowerText.ttf');}
 html,
-body {
-    height: 100%;
-}
-
-h3 {
-  margin: 0;
-  padding: 0;
-
-}
-
-h1, h2, h3 {
-color: rgb(95, 53, 23);
-font-family: 'Averia Serif Libre', cursive;
-text-align: center;
-}
-
-#productos{
-  /*min-height: 100%;
-  height: 100%;*/
-  text-align: center;
-  padding-top: 3em;
-  /*width: 100vh;*/
-}
-
-#productos img{
-
-  border-radius: 10%;
-}
-
-.divisionBase { /*clase secundaria para identificar zonas*/
-  border: 1px solid red;
-}
-
-/*<contacto>*/
-.header {
-    color: rgb(95, 53, 23);
-    font-size: 27px;
-    padding: 10px;
-}
-
-.bigicon {
-    font-size: 35px;
-    color: rgb(95, 53, 23);
-}
-/*</contacto>*/
-
-/*<carrusel>*/
+body{height:100%;}
+h3{margin:0;padding:0;}
+h1, h2, h3{color:rgb(95, 53, 23);font-family:'Averia Serif Libre', cursive;text-align:center;}
+#productos{text-align:center;padding-top:3em;}
+#productos img{border-radius:10%;}
+.divisionBase{border:1px solid red;}
+.header{color:rgb(95, 53, 23);font-size:27px;padding:10px;}
+.bigicon{font-size:35px;color:rgb(95, 53, 23);}
 .carousel,
 .item,
-.active {
-    height: 100%;
+.active{height:100%;}
+.carousel-caption{margin-bottom:15%;}
+.carousel-caption h2{font-size:6em;color:white;}
+.carousel-caption p{animation-duration:3s;animation-name:slidein;font-family:'HighTower', cursive;font-weight:lighter;font-size:2em;}
+.carousel-inner{height:100%;}
+.parallax_section{height:80vh;background-repeat:no-repeat;background-size:cover;background-attachment:fixed;position:relative;}
+.parallax_first_image{background-image:url(../images/sliderFresa.jpg);}
+.parallax_second_image{background-image:url(../images/bigMora4.jpg);background-size:auto auto;}
+.parallax_text{font-size:6em;padding-top:10%;text-align:center;color:white;text-shadow:1px 1px 2px white;font-family:'Averia Serif Libre', cursive;}
+.tarjetas{border:1px solid #ccc;}
+.tarjetas:hover .flipper,
+.tarjetas.hover .flipper{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);-o-transform:rotateY(180deg);transform:rotateY(180deg);}
+.tarjetas, .front, .back{width:320px;height:230px;}
+.flipper{-webkit-transition:0.6s;-webkit-transform-style:preserve-3d;-moz-transition:0.6s;-moz-transform-style:preserve-3d;-o-transition:0.6s;-o-transform-style:preserve-3d;transition:0.6s;transform-style:preserve-3d;position:relative;}
+.front, .back{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-o-backface-visibility:hidden;backface-visibility:hidden;position:absolute;top:0;left:0;}
+.frontZanahoria{background:url(../images/smallZanahoria.jpg) 0 0 no-repeat;background-size:contain;z-index:2;}
+.frontAuyama{background:url(../images/smallAuyama.jpg) 0 0 no-repeat;background-size:contain;z-index:2;}
+.back{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);-o-transform:rotateY(180deg);transform:rotateY(180deg);background:#f8f8f8;}
+.frontZanahoria .frontAuyama .name{font-size:2em;display:inline-block;background:rgba(33, 33, 33, 0.9);color:#f8f8f8;font-family:Courier;padding:5px 10px;border-radius:5px;bottom:60px;left:25%;position:absolute;text-shadow:0.1em 0.1em 0.05em #333;-webkit-transform:rotate(-20deg);-moz-transform:rotate(-20deg);-o-transform:rotate(-20deg);transform:rotate(-20deg);}
+.back-logo{position:absolute;top:40px;left:90px;width:160px;height:117px;background:url(../images/smallZanahoria.jpg) 0 0 no-repeat;}
+.back-title{font-weight:bold;color:rgb(95, 53, 23);position:absolute;left:0;right:0;text-align:center;font-family:'Averia Serif Libre', cursive;font-size:2em;}
+.back p{position:absolute;bottom:40px;left:0;right:0;text-align:center;padding:0 20px;font-family:arial;line-height:2em;}
+.fill{width:100%;height:100%;background-position:center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;}
+.logo{float:left;position:relative;margin-top:20%;z-index:20;}
+#frmContacto{padding-top:3em;}
+#emergencia{color:red;font-size:2em;}
+.piePagina{width:100%;display:inline-flex;justify-content:space-around;text-align:center;background-color:rgb(95, 53, 23);margin-bottom:0;}
+.piePagina h3{color:white;}
+.piePagina img{height:4em;}
+.contenidos{height:100%;width:100%;}
+.personal{border-radius:4em;width:100%;}
+.redesSociales{margin:0 1em 0 0;color:white;font-size:2em;font-family:'Averia Serif Libre', cursive;font-weight:lighter;}
+.redesSociales a{text-decoration:none;color:white;}
+.telefonos{display:inline-flex;justify-content:space-between;text-align:center;vertical-align:middle;margin:0;}
+.telefonos a{color:peru;}
+.botonEnviar{color:rgb(160, 190, 55);}
+@media (max-width:1200px){.logo img{width:80%;}
 }
-.carousel-caption{
-  margin-bottom: 15%;
-  /*margin-left: 10%;*/
+@media (max-width:1000px){.logo img{width:60%;}
 }
-
-.carousel-caption h2 {
-  /*font-family: 'Averia Serif Libre', cursive;*/
-  font-size: 6em;
-  color: white;
-  /*color: olive;*/
-}
-
-.carousel-caption p {
-  animation-duration: 3s;
-   animation-name: slidein;
-   font-family:'HighTower', cursive;
-   font-weight: lighter;
-  font-size: 2em;
-  /*text-transform: capitalize;*/
-  /*color: olive;*/
-}
-.carousel-inner {
-    height: 100%;
-}
-
-.parallax_section {
-  height: 80vh;
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: 100% auto; */
-  background-attachment: fixed;
-  position: relative;
-}
-
-.parallax_first_image {
-  background-image: url(../images/sliderFresa.jpg);
-    /* margin-top: 150px; */
-}
-
-.parallax_second_image {
-  background-image: url(../images/bigMora4.jpg);
-  background-size: auto auto;
-    /* margin-top: 150px; */
-}
-
-.parallax_text {
-  font-size: 6em;
-  padding-top: 10%;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 2px white;
-  font-family: 'Averia Serif Libre', cursive;
-}
-
-/*</carrusel>*/
-/* Background images are set within the HTML using inline CSS, not here */
-
-
-/*efectoTarjetas*/
-.tarjetas {
-  /*-webkit-perspective: 1000;
-  -moz-perspective: 1000;
-  -o-perspective: 1000;
-  perspective: 1000;*/
-
-	border: 1px solid #ccc;
-}
-
-	.tarjetas:hover .flipper,
-  .tarjetas.hover .flipper {
-		-webkit-transform: rotateY(180deg);
-		-moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-		transform: rotateY(180deg);
-	}
-
-.tarjetas, .front, .back {
-	width: 320px;
-	height: 230px;
-}
-
-.flipper {
-	-webkit-transition: 0.6s;
-	-webkit-transform-style: preserve-3d;
-
-	-moz-transition: 0.6s;
-	-moz-transform-style: preserve-3d;
-
-  -o-transition: 0.6s;
-	-o-transform-style: preserve-3d;
-
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-.front, .back {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.frontZanahoria {
-	background: url(../images/smallZanahoria.jpg) 0 0 no-repeat;
-  background-size: contain;
-	z-index: 2;
-}
-.frontAuyama {
-	background: url(../images/smallAuyama.jpg) 0 0 no-repeat;
-  background-size: contain;
-	z-index: 2;
-}
-
-.back {
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-
-  background: #f8f8f8;
-  
-}
-
-.frontZanahoria .frontAuyama .name {
-	font-size: 2em;
-	display: inline-block;
-	background: rgba(33, 33, 33, 0.9);
-	color: #f8f8f8;
-	font-family: Courier;
-	padding: 5px 10px;
-	border-radius: 5px;
-	bottom: 60px;
-	left: 25%;
-	position: absolute;
-	text-shadow: 0.1em 0.1em 0.05em #333;
-
-	-webkit-transform: rotate(-20deg);
-	-moz-transform: rotate(-20deg);
-  -o-transform: rotate(-20deg);
-	transform: rotate(-20deg);
-}
-
-.back-logo {
-	position: absolute;
-	top: 40px;
-	left: 90px;
-	width: 160px;
-	height: 117px;
-	background: url(../images/smallZanahoria.jpg) 0 0 no-repeat;
-}
-
-.back-title {
-	font-weight: bold;
-	color: rgb(95, 53, 23);
-	position: absolute;
-	/*top: 180px;*/
-	left: 0;
-	right: 0;
-	text-align: center;
-	/*text-shadow: 0.1em 0.1em 0.05em #acd7e5;*/
-	font-family: 'Averia Serif Libre', cursive;
-	font-size: 2em;
-}
-
-.back p {
-	position: absolute;
-	bottom: 40px;
-	left: 0;
-	right: 0;
-	text-align: center;
-	padding: 0 20px;
-  font-family: arial;
-  line-height: 2em;
-}
-/*efectoTarjetas*/
-
-.fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.logo {
-  float: left;
-  position: relative;
-  margin-top: 20%;
-  z-index: 20;
-}
-
-#frmContacto {
-  padding-top: 3em;
-}
-
-#emergencia {
-  color: red;
-  font-size: 2em;
-
-}
-
-/*#piePagina{
-  height: 5em;
-}*/
-
-.piePagina {
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-around;
-  text-align: center;
-
-  background-color: rgb(95, 53, 23);
-  margin-bottom: 0;
-}
-
-.piePagina h3 {
-  color: white;
-}
-
-.piePagina img {
-  height: 4em;
-}
-
-/*.contactenos {
-  border: solid 1px red;
-}*/
-
-.contenidos{
-  height: 100%;
-  /*padding-top: 3em;*/
-  width: 100%;
-}
-
-.personal {
-  /*margin-left: 4em;*/
-  border-radius: 4em;
-  width: 100%;
-}
-/*.cardZanahoria {
-  color: olive;
-  content: url('../images/smallZanahoria.jpg');
-
-}*/
-
-.redesSociales {
-  margin: 0 1em 0 0;
-  /*color: rgb(95, 53, 23);*/
-  color: white;
-  font-size: 2em;
-  font-family: 'Averia Serif Libre', cursive;
-  font-weight: lighter;
-}
-
-.redesSociales a {
-  text-decoration: none;
-  color: white;
-}
-
-.telefonos {
-  /*border: 1px solid red;*/
-  display: inline-flex;
-  justify-content: space-between;
-  text-align: center;
-  vertical-align: middle;
-  margin: 0;
-  /*text-decoration: none;*/
-}
-.telefonos a{
-color: peru;
-}
-
-.botonEnviar {
-  color: rgb(160, 190, 55);
-}
-
-/* footer {
-    margin-top: 50px;
-} */
-
-
-/*.flex-row {
-	display: flex;
-	flex-wrap: wrap;
-}*/
-
-/*SECCION PARA MEDIAQUERYS*/
-
-@media (max-width: 1200px) {
-.logo img{
-  /*display: none;*/
-  /*height: 10em;*/
-  width: 80%;
-  }
-}
-  @media (max-width: 1000px) {
-  .logo img{
-    /*display: none;*/
-    /*height: 10em;*/
-    width: 60%;
-    }
-}
-@media (max-width: 780px) {
-  .carousel-caption{
-    margin-bottom: 0;
-  }
-  .carousel-caption h2 {
-    font-family: 'Averia Serif Libre', cursive;
-    font-size: 3em;
-    /*color: olive;*/
-  }
-.logo{
-  display: none;
-  height: 30px;
-  width: auto;
-  }
-
+@media (max-width:780px){.carousel-caption{margin-bottom:0;}
+.carousel-caption h2{font-family:'Averia Serif Libre', cursive;font-size:3em;}
+.logo{display:none;height:30px;width:auto;}
 }
