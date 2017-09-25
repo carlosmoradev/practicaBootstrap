@@ -102,6 +102,12 @@ text-align: center;
     /* margin-top: 150px; */
 }
 
+.parallax_second_image {
+  background-image: url(../images/bigMora4.jpg);
+  background-size: auto auto;
+    /* margin-top: 150px; */
+}
+
 .parallax_text {
   font-size: 6em;
   padding-top: 10%;
