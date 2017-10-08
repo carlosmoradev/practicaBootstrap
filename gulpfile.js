@@ -7,12 +7,22 @@ const   gulp    = require('gulp'),
 
         // se realiza el llamado de todas las dependencias en una misma funcion
 gulp.task('default',
-    ['concat',
+    ['fusioncss',
     // 'uglify',
-    'minifycss',
     'minifyhtml'
+    // 'minifycss'
     ]
 );
-gulp.task('concat', function(){
-    return gulp.src(source)
+gulp.task('fusioncss', function(){
+    
+    return gulp.src(['source/css/desktop.css', 'source/css/mobile.css'])
+        .pipe(concat('styles.css'))
+        .pipe(minifycss())
+        .pipe(gulp.dest('site/css/'))
+});
+
+gulp.task('minifyhtml', function(){
+    return gulp.src('source/index.html')
+        .pipe(minifyhtml())
+        .pipe(gulp.dest('site/'))
 });
