@@ -1,0 +1,22 @@
+{
+  "name": "tortyfrutas",
+  "version": "1.0.0",
+  "description": "Sitio para tortyfrutas",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmmora/practicaBootstrap.git"
+  },
+  "author": "Carlos Mora @carlosmora_biz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmmora/practicaBootstrap/issues"
+  },
+  "homepage": "https://github.com/cmmora/practicaBootstrap#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
