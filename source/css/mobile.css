@@ -1,0 +1,14 @@
+@media (max-width:780px) {
+    .carousel-caption {
+        margin-bottom: 0;
+    }
+    .carousel-caption h2 {
+        font-family: 'Averia Serif Libre', cursive;
+        font-size: 3em;
+    }
+    .logo {
+        display: none;
+        height: 30px;
+        width: auto;
+    }
+}
