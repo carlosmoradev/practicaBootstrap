@@ -16,13 +16,13 @@ gulp.task('default',
 gulp.task('fusioncss', function(){
     
     return gulp.src(['source/css/desktop.css', 'source/css/mobile.css'])
-        .pipe(concat('styles.css'))
+        .pipe(concat('style.css'))
         .pipe(minifycss())
-        .pipe(gulp.dest('site/css/'))
+        .pipe(gulp.dest('css/'))
 });
 
 gulp.task('minifyhtml', function(){
     return gulp.src('source/index.html')
-        .pipe(minifyhtml())
+        .pipe(minifyhtml(''))
         .pipe(gulp.dest('site/'))
 });
