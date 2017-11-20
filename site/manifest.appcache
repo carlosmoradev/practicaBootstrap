@@ -1,0 +1,42 @@
+CACHE MANIFEST
+#v1 - 2017-11-20
+#CACHE BASICO PARA EL SITIO
+
+CACHE:
+/images/logo.png
+/images/sliderZanahoria.jpg
+/images/sliderFresa.jpg
+/images/sliderMora.jpg
+/images/sliderNaranja.jpg
+/images/sliderAuyama.jpg
+/images/sliderBanano.jpg
+/images/sliderChocolate.jpg
+/images/sliderManzana.jpg
+/images/sliderPina.jpg
+/images/sliderRemolacha.jpg
+/images/sliderUva.jpg
+/images/sliderArracacha.jpg
+/images/nosotros.jpeg
+/images/smallZanahoria.jpg
+/images/smallAuyama.jpg
+/images/smallBanano.jpg
+/images/smallChocolate.jpg
+/images/smallFresa.jpg
+/images/smallManzana.jpg
+/images/smallMora.jpg
+/images/smallNaranja.jpg
+/images/smallPina.jpg
+/images/smallRemolacha.jpg
+/images/smallUva.jpg
+/images/smallArracacha.jpg
+/images/imgSmallNaranja.jpg
+/images/hojita.png
+/fonts/HighTowerText.ttf
+/css/style.css
+
+NETWORK:
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
+http://fonts.googleapis.com/css?family=Averia+Serif+Libre
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
